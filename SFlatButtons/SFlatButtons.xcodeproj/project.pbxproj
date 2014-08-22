@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200301D719A6F9760028C23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200301D619A6F9760028C23E /* AppDelegate.swift */; };
+		200301D919A6F9760028C23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200301D819A6F9760028C23E /* ViewController.swift */; };
+		200301DC19A6F9760028C23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200301DA19A6F9760028C23E /* Main.storyboard */; };
+		200301DE19A6F9760028C23E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200301DD19A6F9760028C23E /* Images.xcassets */; };
+		200301EA19A6F9770028C23E /* SFlatButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200301E919A6F9770028C23E /* SFlatButtonsTests.swift */; };
+		200301F419A6F9980028C23E /* SFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200301F319A6F9980028C23E /* SFlatButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		200301E419A6F9760028C23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200301C919A6F9760028C23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200301D019A6F9760028C23E;
+			remoteInfo = SFlatButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200301D119A6F9760028C23E /* SFlatButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFlatButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200301D519A6F9760028C23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200301D619A6F9760028C23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		200301D819A6F9760028C23E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		200301DB19A6F9760028C23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		200301DD19A6F9760028C23E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		200301E319A6F9760028C23E /* SFlatButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFlatButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200301E819A6F9760028C23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200301E919A6F9770028C23E /* SFlatButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFlatButtonsTests.swift; sourceTree = "<group>"; };
+		200301F319A6F9980028C23E /* SFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFlatButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200301CE19A6F9760028C23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200301E019A6F9760028C23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200301C819A6F9760028C23E = {
+			isa = PBXGroup;
+			children = (
+				200301D319A6F9760028C23E /* SFlatButtons */,
+				200301E619A6F9760028C23E /* SFlatButtonsTests */,
+				200301D219A6F9760028C23E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200301D219A6F9760028C23E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200301D119A6F9760028C23E /* SFlatButtons.app */,
+				200301E319A6F9760028C23E /* SFlatButtonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200301D319A6F9760028C23E /* SFlatButtons */ = {
+			isa = PBXGroup;
+			children = (
+				200301F319A6F9980028C23E /* SFlatButton.swift */,
+				200301D619A6F9760028C23E /* AppDelegate.swift */,
+				200301D819A6F9760028C23E /* ViewController.swift */,
+				200301DA19A6F9760028C23E /* Main.storyboard */,
+				200301DD19A6F9760028C23E /* Images.xcassets */,
+				200301D419A6F9760028C23E /* Supporting Files */,
+			);
+			path = SFlatButtons;
+			sourceTree = "<group>";
+		};
+		200301D419A6F9760028C23E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200301D519A6F9760028C23E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		200301E619A6F9760028C23E /* SFlatButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				200301E919A6F9770028C23E /* SFlatButtonsTests.swift */,
+				200301E719A6F9760028C23E /* Supporting Files */,
+			);
+			path = SFlatButtonsTests;
+			sourceTree = "<group>";
+		};
+		200301E719A6F9760028C23E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200301E819A6F9760028C23E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200301D019A6F9760028C23E /* SFlatButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200301ED19A6F9770028C23E /* Build configuration list for PBXNativeTarget "SFlatButtons" */;
+			buildPhases = (
+				200301CD19A6F9760028C23E /* Sources */,
+				200301CE19A6F9760028C23E /* Frameworks */,
+				200301CF19A6F9760028C23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFlatButtons;
+			productName = SFlatButtons;
+			productReference = 200301D119A6F9760028C23E /* SFlatButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		200301E219A6F9760028C23E /* SFlatButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200301F019A6F9770028C23E /* Build configuration list for PBXNativeTarget "SFlatButtonsTests" */;
+			buildPhases = (
+				200301DF19A6F9760028C23E /* Sources */,
+				200301E019A6F9760028C23E /* Frameworks */,
+				200301E119A6F9760028C23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				200301E519A6F9760028C23E /* PBXTargetDependency */,
+			);
+			name = SFlatButtonsTests;
+			productName = SFlatButtonsTests;
+			productReference = 200301E319A6F9760028C23E /* SFlatButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200301C919A6F9760028C23E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alex Mejicanos";
+				TargetAttributes = {
+					200301D019A6F9760028C23E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					200301E219A6F9760028C23E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 200301D019A6F9760028C23E;
+					};
+				};
+			};
+			buildConfigurationList = 200301CC19A6F9760028C23E /* Build configuration list for PBXProject "SFlatButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200301C819A6F9760028C23E;
+			productRefGroup = 200301D219A6F9760028C23E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200301D019A6F9760028C23E /* SFlatButtons */,
+				200301E219A6F9760028C23E /* SFlatButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200301CF19A6F9760028C23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200301DC19A6F9760028C23E /* Main.storyboard in Resources */,
+				200301DE19A6F9760028C23E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200301E119A6F9760028C23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200301CD19A6F9760028C23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200301D919A6F9760028C23E /* ViewController.swift in Sources */,
+				200301D719A6F9760028C23E /* AppDelegate.swift in Sources */,
+				200301F419A6F9980028C23E /* SFlatButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		200301DF19A6F9760028C23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200301EA19A6F9770028C23E /* SFlatButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		200301E519A6F9760028C23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200301D019A6F9760028C23E /* SFlatButtons */;
+			targetProxy = 200301E419A6F9760028C23E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		200301DA19A6F9760028C23E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200301DB19A6F9760028C23E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200301EB19A6F9770028C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		200301EC19A6F9770028C23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		200301EE19A6F9770028C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SFlatButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		200301EF19A6F9770028C23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SFlatButtons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		200301F119A6F9770028C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SFlatButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFlatButtons.app/SFlatButtons";
+			};
+			name = Debug;
+		};
+		200301F219A6F9770028C23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SFlatButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFlatButtons.app/SFlatButtons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200301CC19A6F9760028C23E /* Build configuration list for PBXProject "SFlatButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200301EB19A6F9770028C23E /* Debug */,
+				200301EC19A6F9770028C23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200301ED19A6F9770028C23E /* Build configuration list for PBXNativeTarget "SFlatButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200301EE19A6F9770028C23E /* Debug */,
+				200301EF19A6F9770028C23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		200301F019A6F9770028C23E /* Build configuration list for PBXNativeTarget "SFlatButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200301F119A6F9770028C23E /* Debug */,
+				200301F219A6F9770028C23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200301C919A6F9760028C23E /* Project object */;
+}
