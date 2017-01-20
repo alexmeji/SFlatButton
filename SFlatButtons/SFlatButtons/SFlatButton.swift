@@ -5,25 +5,51 @@
 //  Created by Alex Mejicanos on 18/08/14.
 //  Copyright (c) 2014 Alex Mejicanos. All rights reserved.
 //
+// Adaptation do Swift 1.2 and IBDesignable/IBInspectable by Julio Fabio Chagas
 
 import UIKit
 
+@IBDesignable
 class SFlatButton: UIButton
 {
-    
+
     enum SFlatButtonType: Int
     {
-        case SFBDefault
-        case SFBPrimary
-        case SFBSuccess
-        case SFBInfo
-        case SFBWarning
-        case SFBDanger
+        case SFBDefault = 1,SFBPrimary,SFBSuccess,SFBInfo,SFBWarning,SFBDanger
     }
     
-    let SFbuttonType: SFlatButtonType = .SFBDefault
+    @IBInspectable
+    var SFbuttonType: SFlatButtonType = .SFBDefault { didSet { setupButtons() } }
     
-    required init(coder aDecoder: NSCoder!)
+    @IBInspectable var flatButtonType:Int = 0
+    {
+        willSet {
+            switch(newValue) {
+            case 1:
+                SFbuttonType = SFlatButtonType.SFBDefault
+            case 2:
+                SFbuttonType = SFlatButtonType.SFBPrimary
+            case 3:
+                SFbuttonType = SFlatButtonType.SFBSuccess
+            case 4:
+                SFbuttonType = SFlatButtonType.SFBInfo
+            case 5:
+                SFbuttonType = SFlatButtonType.SFBWarning
+            case 6:
+                SFbuttonType = SFlatButtonType.SFBDanger
+            default:
+                println()
+            }
+        }
+        didSet
+            {
+                setupButtons()
+                setNeedsDisplay()
+        }
+    }
+    
+    
+    required init(coder aDecoder: NSCoder)
     {
         super.init(coder: aDecoder)
     }
@@ -99,6 +125,7 @@ class SFlatButton: UIButton
         
         self.layer.cornerRadius = 4.0
         self.layer.masksToBounds = true
+        setNeedsDisplay()
     }
     
     func imageWithColorToButton(colorButton: UIColor) -> UIImage
